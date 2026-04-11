@@ -1,5 +1,4 @@
 import numpy as np
-from main import game_mode
 
 
 """ generates the random number """
@@ -26,6 +25,7 @@ else:
 """
 #a function for the game itself, each if statement are the different game modes
 def the_game():
+    game_mode = int(input("Enter which mode: "))
     if game_mode == 1:
         user_guess = int(input("Enter your guess: "))
         chances = 0
@@ -75,6 +75,8 @@ def the_game():
         print("Not a valid mode")        
 
 
+# def check_guess():
+#create James mode
 
 
 

@@ -8,5 +8,5 @@ print(rules)
 game_choice = "Please select the difficulty level: \n1. Easy (10 chances) \n2. Medium (5 chances) \n3. Hard (3 chances) \n"
 print(game_choice)
 
-game_mode = int(input("Enter which mode: "))
+
 the_game()
