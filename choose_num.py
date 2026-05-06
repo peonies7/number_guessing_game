@@ -74,10 +74,11 @@ def the_game():
                 break
             elif user_guess > random_num:
                 user_guess = int(input("Too big, guess again:"))
-                chances += 1
+                #chances += 1
             elif user_guess < random_num:
                 user_guess = int(input("Too small, guess again:"))
-                chances += 1    
+                #chances += 1   
+            chances += 1
         else:
             print("Sorry, out of tries for hard mode")
     else:
